@@ -5,13 +5,6 @@ set -o errexit
 # Установка Python зависимостей
 pip install -r requrements.txt
 
-# Сборка фронтенда
-cd frontend
-npm install
-npm run build
-cd ..
-
-
 # Миграции
 python manage.py migrate
 
