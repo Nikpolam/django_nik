@@ -3,7 +3,7 @@
 set -o errexit
 
 # Установка Python зависимостей
-pip install -r requirements.txt
+pip install -r requrements.txt
 
 # Сборка фронтенда
 cd frontend
