@@ -19,4 +19,4 @@ python manage.py migrate
 python create_superuser.py
 
 # Сборка бэкенда + статика
-python manage.py collectstatic --no-input --clear
+python manage.py collectstatic
