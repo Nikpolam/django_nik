@@ -1,5 +1,5 @@
 import django
-
+import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blog_project.settings')
 django.setup()
 
