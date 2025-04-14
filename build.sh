@@ -11,8 +11,6 @@ npm install
 npm run build
 cd ..
 
-# Сборка бэкенда + статика
-python manage.py collectstatic --no-input --clear
 
 # Миграции
 python manage.py migrate
@@ -20,3 +18,5 @@ python manage.py migrate
 # Создание суперпользователя
 python create_superuser.py
 
+# Сборка бэкенда + статика
+python manage.py collectstatic --no-input --clear
